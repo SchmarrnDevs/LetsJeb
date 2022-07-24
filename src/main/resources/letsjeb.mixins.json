@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.schmarrn.letsjeb.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "SheepShearMixin"
+  ],
+  "client": [],
+  "server": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

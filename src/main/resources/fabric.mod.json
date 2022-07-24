@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "letsjeb",
+  "version": "${version}",
+  "name": "Let's Jeb",
+  "description": "Realistic Unrealistic Rainbowsheep",
+  "authors": [
+    "Andreas Kohler"
+  ],
+  "contact": {
+    "email": "contact@schmarrn.dev",
+    "sources": "https://github.com/SchmarrnDevs/LetsJeb"
+  },
+  "license": "Apache-2.0",
+  "icon": "assets/letsjeb/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.schmarrn.letsjeb.LetsJeb"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.8",
+    "minecraft": "1.18.2"
+  },
+  "mixins": [
+    "letsjeb.mixins.json"
+  ]
+}
