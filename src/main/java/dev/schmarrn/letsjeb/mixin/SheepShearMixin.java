@@ -1,13 +1,7 @@
 package dev.schmarrn.letsjeb.mixin;
 
-import dev.schmarrn.letsjeb.LetsJeb;
-import it.unimi.dsi.fastutil.shorts.ShortLists;
 import net.minecraft.entity.passive.SheepEntity;
-import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.loot.LootTables;
 import net.minecraft.util.DyeColor;
-import net.minecraft.util.Hand;
-import net.minecraft.util.Identifier;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;

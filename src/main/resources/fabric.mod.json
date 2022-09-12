@@ -14,14 +14,9 @@
   "license": "Apache-2.0",
   "icon": "assets/letsjeb/icon.png",
   "environment": "*",
-  "entrypoints": {
-    "main": [
-      "dev.schmarrn.letsjeb.LetsJeb"
-    ]
-  },
   "depends": {
     "fabricloader": ">=0.14.8",
-    "minecraft": "1.18.2"
+    "minecraft": ">=1.15"
   },
   "mixins": [
     "letsjeb.mixins.json"
