@@ -15,7 +15,7 @@ public class SheepShearMixin {
     @Inject(at = @At("HEAD"), method = "getColor()Lnet/minecraft/util/DyeColor;", cancellable = true)
     private void letsjeb$getColor(final CallbackInfoReturnable<DyeColor> cir) {
         SheepEntity dolly = (SheepEntity) (Object) this;
-        if (!dolly.world.isClient && dolly.hasCustomName() && dolly.getName().getString().equals("jeb_")) {
+        if (!dolly.getWorld().isClient && dolly.hasCustomName() && dolly.getName().getString().equals("jeb_")) {
             int color = new Random().nextInt(16);
             cir.setReturnValue(DyeColor.byId(color));
         }

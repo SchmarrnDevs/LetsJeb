@@ -5,7 +5,7 @@
   "name": "Let's Jeb",
   "description": "Realistic Unrealistic Rainbowsheep",
   "authors": [
-    "Andreas Kohler"
+    "andi_makes"
   ],
   "contact": {
     "email": "contact@schmarrn.dev",
@@ -15,8 +15,8 @@
   "icon": "assets/letsjeb/icon.png",
   "environment": "*",
   "depends": {
-    "fabricloader": ">=0.14.8",
-    "minecraft": ">=1.15"
+    "fabricloader": ">=0.14.22",
+    "minecraft": ">=1.20"
   },
   "mixins": [
     "letsjeb.mixins.json"
